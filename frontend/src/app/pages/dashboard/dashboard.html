@@ -1,0 +1,100 @@
+<div class="dashboard-container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile-section">
+      <div class="profile-avatar">
+        <img src="https://ui-avatars.com/api/?name=Alice+Wonder&background=ff6b81&color=fff&size=80" alt="Profile">
+      </div>
+      <h2 class="profile-name">Alice Wonder</h2>
+      <p class="profile-xp">⭐ 150 XP</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a href="/dashboard" class="nav-item active">
+        <span class="nav-icon">🏠</span>
+        <span>Accueil & Recommandations</span>
+      </a>
+      <a href="/activities" class="nav-item">
+        <span class="nav-icon">📅</span>
+        <span>Mes Activités</span>
+      </a>
+      <a href="/profile" class="nav-item">
+        <span class="nav-icon">👤</span>
+        <span>Mon Profil</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Header -->
+    <header class="dashboard-header">
+      <div class="header-left">
+        <button class="toggle-preview">Preview</button>
+        <button class="toggle-code">Code</button>
+      </div>
+      <div class="header-right">
+        <span class="user-name">Alice</span>
+        <button class="btn-logout">Déconnexion</button>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+      <h1 class="page-title">Défi Communautaire</h1>
+
+      <!-- Challenge Card -->
+      <div class="challenge-card">
+        <div class="challenge-content">
+          <h2 class="challenge-title">Semaine de la Convivialité 🎉</h2>
+          <p class="challenge-description">
+            Participez à 3 activités cette semaine pour débloquer le badge "Ambassadeur".
+          </p>
+        </div>
+        <div class="challenge-progress">
+          <span class="progress-text">1/3</span>
+          <span class="progress-label">Progression</span>
+        </div>
+      </div>
+
+      <!-- Recommendations Section -->
+      <h2 class="section-title">Recommandé pour vous ✨</h2>
+
+      <div class="recommendations-grid">
+        <!-- Card 1 -->
+        <div class="activity-card">
+          <div class="card-header">
+            <h3 class="activity-title">Cinéma en Plein Air</h3>
+            <span class="match-badge match-high">97% Match</span>
+          </div>
+          <div class="activity-details">
+            <span class="activity-location">📍 Cour</span>
+            <span class="activity-date">🕐 2023-11-25</span>
+          </div>
+          <p class="activity-description">Projection du film 'The Intouchables'.</p>
+          <div class="card-footer">
+            <span class="activity-xp">+40 XP</span>
+            <button class="btn-join">Rejoindre</button>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="activity-card">
+          <div class="card-header">
+            <h3 class="activity-title">Yoga du Matin</h3>
+            <span class="match-badge match-medium">86% Match</span>
+          </div>
+          <div class="activity-details">
+            <span class="activity-location">📍 Jardin</span>
+            <span class="activity-date">🕐 2023-11-23</span>
+          </div>
+          <p class="activity-description">Réveillez-vous en douceur.</p>
+          <div class="card-footer">
+            <span class="activity-xp">+30 XP</span>
+            <button class="btn-join">Rejoindre</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
