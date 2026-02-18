@@ -306,3 +306,16 @@
   background-color: #ff5875;
   transform: scale(1.05);
 }
+.btn-join {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-decoration: none;
+}
