@@ -1,0 +1,99 @@
+<div class="admin-container">
+  <!-- Sidebar Admin -->
+  <aside class="admin-sidebar">
+    <div class="admin-profile">
+      <div class="admin-icon">🛡️</div>
+      <h2 class="admin-title">Administrateur</h2>
+      <p class="admin-mode">Mode Supervision</p>
+    </div>
+
+    <nav class="admin-nav">
+      <a href="/admin-dashboard" class="admin-nav-item active">
+        <span class="nav-icon">👥</span>
+        <span>Utilisateurs</span>
+      </a>
+      <a href="/admin-activities" class="admin-nav-item">
+        <span class="nav-icon">📊</span>
+        <span>Activités & XP</span>
+      </a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="admin-main">
+    <!-- Header -->
+    <header class="admin-header">
+      <div class="header-logo">
+        <span class="logo-icon">😊</span>
+        <span class="logo-text">Smile <span class="logo-up">Up</span></span>
+      </div>
+      <div class="header-right">
+        <span class="admin-name">Admin</span>
+        <button class="btn-logout">Déconnexion</button>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <div class="content-wrapper">
+      <div class="content-header">
+        <h1 class="page-title">Gestion des Membres</h1>
+        <button class="btn-export">
+          <span>📤</span> Exporter
+        </button>
+      </div>
+
+      <!-- Table -->
+      <div class="table-container">
+        <table class="members-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Membre</th>
+              <th>Email</th>
+              <th>Rôle</th>
+              <th>XP</th>
+              <th>Date d'arrivée</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Admin Row -->
+            <tr>
+              <td>#1</td>
+              <td class="member-cell">
+                <div class="member-avatar">
+                  <img src="https://ui-avatars.com/api/?name=Admin+Sys&background=6c757d&color=fff&size=40" alt="Admin">
+                </div>
+                <span>Admin Sys</span>
+              </td>
+              <td>admin@smileup.com</td>
+              <td><span class="badge badge-admin">ADMIN</span></td>
+              <td class="xp-cell">9999</td>
+              <td>2023-01-01</td>
+              <td>
+                <button class="btn-edit">Éditer</button>
+              </td>
+            </tr>
+            <!-- Member Row -->
+            <tr>
+              <td>#2</td>
+              <td class="member-cell">
+                <div class="member-avatar">
+                  <img src="https://ui-avatars.com/api/?name=Alice+Wonder&background=ff6b81&color=fff&size=40" alt="Alice">
+                </div>
+                <span>Alice Wonder</span>
+              </td>
+              <td>user@smileup.com</td>
+              <td><span class="badge badge-member">MEMBER</span></td>
+              <td class="xp-cell">150</td>
+              <td>2023-10-15</td>
+              <td>
+                <button class="btn-edit">Éditer</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+</div>
